@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c238891.css",
+    "main.js": "/static/js/main.1344ff50.js",
+    "static/js/787.ec704a7a.chunk.js": "/static/js/787.ec704a7a.chunk.js",
+    "static/media/mariadbLogowhite.svg": "/static/media/mariadbLogowhite.7d194bc11aac8d9a38419b6c5519f9a7.svg",
+    "static/media/banana.svg": "/static/media/banana.ca646753a5b22a7be12c87e2d8d39831.svg",
+    "static/media/abacus.svg": "/static/media/abacus.ce9337f495709b14c6ba987cbc04fc9e.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/email-icon.svg": "/static/media/email-icon.a109cb4ed7150ba8683ee83097138c95.svg",
+    "static/media/downloadIcon.svg": "/static/media/downloadIcon.454abf69459e522eb342feca70bf8a08.svg",
+    "index.html": "/index.html",
+    "static/media/insta-icon.svg": "/static/media/insta-icon.72dd0f998274ea964ba3319c053eaa6e.svg",
+    "static/media/github-icon.svg": "/static/media/github-icon.04be58c17b3d5e9744424d414240dd85.svg",
+    "static/media/ccchaos.svg": "/static/media/ccchaos.e57ca853841466c1ec6ef548278cd7ad.svg",
+    "static/media/ms-office.svg": "/static/media/ms-office.7c48ce3d63e74fd55a1b250647693783.svg",
+    "static/media/arrowdown.svg": "/static/media/arrowdown.87c0ffd0f409aa9c65d0ecb1ab4e0b01.svg",
+    "static/media/webflow-icon.svg": "/static/media/webflow-icon.6180beebaf2661ef6b8014009dd33bcb.svg",
+    "static/media/stripe.svg": "/static/media/stripe.68875bbf1c5015faffecd110c68c28da.svg",
+    "main.4c238891.css.map": "/static/css/main.4c238891.css.map",
+    "main.1344ff50.js.map": "/static/js/main.1344ff50.js.map",
+    "787.ec704a7a.chunk.js.map": "/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c238891.css",
+    "static/js/main.1344ff50.js"
+  ]
+}
