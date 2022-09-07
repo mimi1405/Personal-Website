@@ -1,0 +1,1031 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
+.entrance{
+    display: flex;
+    height:100vh;
+    width: 100vw;
+    background-color: #000000;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+
+.entrance-block{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+.stripe{
+    margin-bottom: 5px;
+    width: 50vw;
+}
+
+#name{
+    color: #0aa200;
+}
+
+#gagi{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.Ueber-Mich{
+    width: 1fr;
+    background-color: #000000;
+}
+
+.Ueber-Mich-Cont{
+    background-color: #000000;
+    text-align: center;
+}
+
+.Ueber-Mich-Title{
+    margin-bottom: 50px;
+    color: #0aa200;
+    font-family: 'Cascadia Code', sans-serif;
+    padding-top: 100px;
+}
+
+.txt-abt-me{
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+
+.CV-button{
+  background-color: #0aa200;
+  border: none;
+  color: whitesmoke;
+  font-size: 16px;
+  cursor: pointer;
+  height: 100%;
+  width:  1fr;
+  border-radius: 8px;
+}
+
+.CV-button:hover {
+    background-color: #af6dda;
+  }
+
+  .downIcon{
+    margin-left: 4px;
+  }
+
+  #skills-title{
+    margin-top: 80px;
+    color: #0aa200;
+    cursor: pointer;
+    justify-self: left;
+    font-family: 'Cascadia Code', sans-serif;
+  }
+
+  #skills-title:hover{
+    animation-name: tilt-shaking;
+    animation-duration: 0.4s;
+  
+  }
+
+  @keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+
+  
+  .first{
+    display: flex;
+  }
+
+  .react{
+    background-color: black;
+    border-radius: 5px;
+    width: 1fr;
+    height: 1fr;
+  }
+
+  .skills-sect{
+    background-color: gray;
+  }
+
+.react{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 50%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.skill-pic{
+  display: block;
+  width: 25%;
+  height: 25%;
+  margin: 0 auto;
+}
+
+.skills-cont-react{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 100vh;
+  width: 100%;
+  margin-bottom: 50px;
+  position:relative;
+}
+
+.react-description{
+  font-size: 2vw;
+}
+
+.skills-cont-java{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 70vh;
+  width: 100%;
+}
+
+.skills-cont-js{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  margin-top: 45vh;
+}
+
+.skills-cont-html{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  width: 25vw;
+  margin-top: 20vh;
+}
+
+.skills-cont-css{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  margin-top: 45vh;
+}
+
+.skills-cont-bt{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  margin-top: 100vh;
+}
+
+.html-card{
+  width: auto;
+  margin-top: 8px;
+  font-family: 'Cascadia Code', sans-serif;
+}
+
+.row{
+  margin-left: 0;
+}
+
+.web-dev-title{
+  font-family: 'Cascadia Code', sans-serif;
+}
+
+.sys-dev-title {
+  font-family: 'Cascadia Code', sans-serif;
+}
+
+.entrance-greeting {
+  margin: 0 auto;
+  align-self: center;
+  justify-self: center;
+  font-family: 'Cascadia Code', sans-serif;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: whitesmoke; }
+}
+
+.entrance-description{
+  align-self: center;
+  justify-self: center;
+  font-family: 'Cascadia Code', sans-serif;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+
+}
+
+#awards-title{
+  font-size: 2rem;
+  color: #0aa200;
+  font-family: 'Cascadia Code', sans-serif;
+}
+
+.award{
+  font-size: medium;
+  color: white;
+}
+
+
+#arrow-down{
+  justify-self: center;
+  align-self: center;
+  position: relative;
+  width: 6vw;
+  height: 10vh;
+}
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.awards{
+  border-radius: 3px;
+  border-color: green;
+  border-width: 3px;
+}
+
+.card-title{
+  color: white;
+}
+.card-body{
+  background-color: #000000;
+  display: block;
+  border: solid;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: black;
+}
+
+.fa-ul{
+  padding-right: 4px;
+}
+
+.soc-img{
+  width: 12vw;
+  height: 12vh;
+  color: whitesmoke;
+}
+
+.footer-icon{
+  width: 5vw;
+  height: 5vh;
+  color: white;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.copyright{
+  color: #af6dda;
+}
+
+.project{
+  overflow: hidden; 
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.project svg { 
+  width: 100%; 
+  transition: 0.5s all ease-in-out; 
+}
+
+.project:hover svg { 
+  transform: scale(2.5); 
+} 
+
+#project-pic{
+  width: 300px;
+  height: 300px;
+}
+
+.project-title{
+  color: #af6dda;
+}
+
+
+
+.soc-img:hover {
+  fill: #af6dda;
+}
+
+.footer-icon:hover {
+  fill: #af6dda;
+}
+
+
+.preloader-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s ease;
+}
+
+.fade-out-animation{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+/*SVG Designs Auto-generated*/
+
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #edeced;
+      }
+
+      .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-4 {
+        fill: #231e20;
+      }
+
+      .cls-5 {
+        fill: #e52629;
+      }
+
+      .cls-6 {
+        fill: #e5262b;
+      }
+
+      .cls-7 {
+        fill: #e52529;
+      }
+
+      .cls-8 {
+        fill: #e5252a;
+      }
+
+      .cls-9 {
+        fill: #e5262a;
+      }
+
+      .cls-10 {
+        fill: #fcfbfb;
+      }
+
+      .cls-11 {
+        fill: #fdfaf7;
+      }
+
+      .cls-12 {
+        fill: #fcfaf9;
+      }
+
+      .cls-13 {
+        fill: #fcf8f6;
+      }
+
+      .cls-14 {
+        fill: #faf5f3;
+      }
+
+      .cls-15 {
+        fill: #f5efed;
+      }
+
+      .cls-16 {
+        fill: #faf2f1;
+      }
+
+      .cls-17 {
+        fill: #e5252d;
+      }
+
+      .cls-18 {
+        fill: #faf4f2;
+      }
+
+      .cls-19 {
+        fill: #f9f3f2;
+      }
+
+      .cls-20 {
+        fill: #fbf6f5;
+      }
+
+      .cls-21 {
+        fill: #faf5f5;
+      }
+
+      .cls-22 {
+        fill: #e42728;
+      }
+
+      .cls-23 {
+        fill: #fcfbf9;
+      }
+
+      .cls-24 {
+        fill: #e12427;
+      }
+
+      .cls-25 {
+        fill: #fbf7f6;
+      }
+
+      .cls-26 {
+        fill: #f9f8f8;
+      }
+
+      .cls-27 {
+        fill: #f9f8f6;
+      }
+
+      .cls-28 {
+        fill: #e4262e;
+      }
+
+      .cls-29 {
+        fill: #fbf3f0;
+      }
+
+      .cls-30 {
+        fill: #faf2f2;
+      }
+
+      .cls-31 {
+        fill: #f8f4f1;
+      }
+
+      .cls-32 {
+        fill: #fbf2f1;
+      }
+
+      .cls-33 {
+        fill: #f6f1ec;
+      }
+
+      .cls-34 {
+        fill: #faf5f4;
+      }
+
+      .cls-35 {
+        fill: #f9f2ef;
+      }
+
+      .cls-36 {
+        fill: #f9f0ec;
+      }
+
+      .cls-37 {
+        fill: #f8f2ef;
+      }
+
+      .cls-38 {
+        fill: #af373b;
+      }
+
+      .cls-39 {
+        fill: #faf0ee;
+      }
+
+      .cls-40 {
+        fill: #d93e4e;
+      }
+
+      .cls-41 {
+        fill: #b0373a;
+      }
+
+      .cls-42 {
+        fill: #f6e9e4;
+      }
+
+      .cls-43 {
+        fill: #f7e7e5;
+      }
+
+      .cls-44 {
+        fill: #faeae0;
+      }
+
+      .cls-45 {
+        fill: #b9373d;
+      }
+
+      .cls-46 {
+        fill: #c24a49;
+      }
+
+      .cls-47 {
+        fill: #efd0cd;
+      }
+
+      .cls-48 {
+        fill: #f3e6df;
+      }
+
+      .cls-49 {
+        fill: #f9eaea;
+      }
+
+      .cls-50 {
+        fill: #b22924;
+      }
+
+      .cls-51 {
+        fill: #c8484d;
+      }
+
+      .cls-52 {
+        fill: #b4393f;
+      }
+
+      .cls-53 {
+        fill: #a73b3e;
+      }
+
+      .cls-54 {
+        fill: #922a29;
+      }
+
+      .cls-55 {
+        fill: #bd3437;
+      }
+
+      .cls-56 {
+        fill: #f8dadc;
+      }
+
+      .cls-57 {
+        fill: #eb99a1;
+      }
+
+      .cls-58 {
+        fill: #a43a3d;
+      }
+
+      .cls-59 {
+        fill: #eaacad;
+      }
+
+      .cls-60 {
+        fill: #b73e3a;
+      }
+
+      .cls-61 {
+        fill: #d06563;
+      }
+
+      .cls-62 {
+        fill: #f5d3cd;
+      }
+
+      .cls-63 {
+        fill: #af3c3c;
+      }
+
+      .cls-64 {
+        fill: #f0aaae;
+      }
+
+      .cls-65 {
+        fill: #f7d5d2;
+      }
+
+      .cls-66 {
+        fill: #f0bfbf;
+      }
+
+      .cls-67 {
+        fill: #fffeff;
+      }
+
+      .cls-68 {
+        fill: #4d1a22;
+      }
+
+      .cls-69 {
+        fill: #882427;
+      }
+
+      .cls-70 {
+        fill: #c92736;
+      }
+
+      .cls-71 {
+        fill: #541e1f;
+      }
+
+      .cls-72 {
+        fill: #ca2728;
+      }
+
+      .cls-73 {
+        fill: #c9232e;
+      }
+
+      .cls-74 {
+        fill: #9e292b;
+      }
+
+      .cls-75 {
+        fill: #6c1f22;
+      }
+
+      .cls-76 {
+        fill: #a82932;
+      }
+
+      .cls-77 {
+        fill: #ce2835;
+      }
+
+      .cls-78 {
+        fill: #d2292f;
+      }
+
+      .cls-79 {
+        fill: #8c2826;
+      }
+
+      .cls-80 {
+        fill: #b82b28;
+      }
+
+      .cls-81 {
+        fill: #80271f;
+      }
+
+      .cls-82 {
+        fill: #892529;
+      }
+
+      .cls-83 {
+        fill: #c72d32;
+      }
+
+      .cls-84 {
+        fill: #d02733;
+      }
+
+      .cls-85 {
+        fill: #ae2932;
+      }
+
+      .cls-86 {
+        fill: #c62a30;
+      }
+
+      .cls-87 {
+        fill: #c72737;
+      }
+
+      .cls-88 {
+        fill: #be2832;
+      }
+
+      .cls-89 {
+        fill: #632221;
+      }
+
+      .cls-90 {
+        fill: #7d232f;
+      }
+
+      .cls-91 {
+        fill: #68211d;
+      }
+
+      .cls-92 {
+        fill: #e12325;
+      }
+
+      .cls-93 {
+        fill: #fdfdfc;
+      }
+
+      .cls-94 {
+        fill: #faf4f3;
+      }
+
+      .cls-95 {
+        fill: #da2728;
+      }
+
+      .cls-96 {
+        fill: #c23033;
+      }
+
+      .cls-97 {
+        fill: #d36267;
+      }
+
+      .cls-98 {
+        fill: #dc233a;
+      }
+
+      .cls-99 {
+        fill: #e12324;
+      }
+
+      .cls-100 {
+        fill: #b53539;
+      }
+
+      .cls-101 {
+        fill: #b24c4f;
+      }
+
+      .cls-102 {
+        fill: #fdfaf9;
+      }
+
+      .cls-103 {
+        fill: #d5282e;
+      }
+
+      .cls-104 {
+        fill: #ce464a;
+      }
+
+      .cls-105 {
+        fill: #d6525f;
+      }
+
+      .cls-106 {
+        fill: #cf585c;
+      }
+
+      .cls-107 {
+        fill: #e42726;
+      }
+
+      .cls-108 {
+        fill: #f0c6c4;
+      }
+
+      .cls-109 {
+        fill: #ad3740;
+      }
+
+      .cls-110 {
+        fill: #e02326;
+      }
+
+      .cls-111 {
+        fill: #9c4247;
+      }
+
+      .cls-112 {
+        fill: #d2292d;
+      }
+
+      .cls-113 {
+        fill: #af4742;
+      }
+
+      .cls-114 {
+        fill: #e1253d;
+      }
+
+      .cls-115 {
+        fill: #e12837;
+      }
+
+      .cls-116 {
+        fill: #fad5d6;
+      }
+
+      .cls-117 {
+        fill: #c62e31;
+      }
+
+      .cls-118 {
+        fill: #b83536;
+      }
+
+      .cls-119 {
+        fill: #cc5154;
+      }
+
+      .cls-120 {
+        fill: #ba3b40;
+      }
+
+      .cls-121 {
+        fill: #c23134;
+      }
+
+      .cls-122 {
+        fill: #c7444c;
+      }
+
+      .cls-123 {
+        fill: #faddd9;
+      }
+
+      .cls-124 {
+        fill: #ca6364;
+      }
+
+      .cls-125 {
+        fill: #f6c6cc;
+      }
+
+      .cls-126 {
+        fill: #a1535f;
+      }
+
+      .cls-127 {
+        fill: #b93039;
+      }
+
+      .cls-128 {
+        fill: #cf4e54;
+      }
+
+      .cls-129 {
+        fill: #d25857;
+      }
+
+      .cls-130 {
+        fill: #f9e8dd;
+      }
+
+      .cls-131 {
+        fill: #c34b4c;
+      }
+
+      .cls-132 {
+        fill: #bb3238;
+      }
+
+      .cls-133 {
+        fill: #c32f34;
+      }
+
+      .cls-134 {
+        fill: #c03036;
+      }
+
+      .cls-135 {
+        fill: #be3133;
+      }
+
+      .cls-136 {
+        fill: #e42426;
+      }
+
+      .cls-137 {
+        fill: #b8363c;
+      }
+
+      .cls-138 {
+        fill: #a3565e;
+      }
+
+      .cls-139 {
+        fill: #c13734;
+      }
+
+      .cls-140 {
+        fill: #b43840;
+      }
+
+      .cls-141 {
+        fill: #e5252b;
+      }
+
+      .cls-142 {
+        fill: #b43b3f;
+      }
+
+      .cls-143 {
+        fill: #d2282d;
+      }
+
+      .cls-144 {
+        fill: #f19097;
+      }
+
+      .cls-145 {
+        fill: #aa383e;
+      }
+
+      .cls-146 {
+        fill: #fdf9f9;
+      }
+
+      .cls-147 {
+        fill: #d32930;
+      }
+
+      .cls-148 {
+        fill: #f1b8bf;
+      }
+
+      .cls-149 {
+        fill: #c03430;
+      }
+
+      .cls-150 {
+        fill: #fffefe;
+      }
+
+      .cls-151 {
+        fill: #fdfafa;
+      }
+
+      .cls-152 {
+        fill: #f8dedf;
+      }
+
+      .cls-153 {
+        fill: #d12a2d;
+      }
+
+      .cls-154 {
+        fill: #e52424;
+      }
+
+      .cls-155 {
+        fill: #cc2b2e;
+      }
