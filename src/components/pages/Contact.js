@@ -14,7 +14,7 @@ export class contact extends Component {
                         </div>
                         <div className='row justify-content-center'>
                             <div className='col-lg-6'>
-                                <form name='contact' netlify>
+                                <form name='contact' method='post' data-netlify="true" onSubmit="submit" netlify>
 
                                     <div class="mb-3">
                                         <label style={{ color: "#af6dda"}} for="exampleInputEmail1" class="form-label">Email-Adresse</label>
