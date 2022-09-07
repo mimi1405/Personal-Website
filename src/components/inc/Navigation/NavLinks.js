@@ -21,6 +21,7 @@ export default class NavLinks extends Component {
               // remove padding top from body
               document.body.style.paddingTop = "0";
             }// DOMContentLoaded end
+            //test
           })}
 
   render() {
