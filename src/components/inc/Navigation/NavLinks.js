@@ -20,62 +20,33 @@ export default class NavLinks extends Component {
 
   render() {
     return (
-      <div>
-        <nav id="_navbar" className="navbar navbar-expand-lg">
-          <div className="container-fluid">
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <a className="navbar-brand d-lg-none" href="#">
-                  Maksim Momcilovic
-                </a>
-                <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    aria-current="page"
-                    href="#ueberMichSection"
-                  >
-                    Über Mich
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#projekt-section">
-                    Projekte
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#skills-section">
-                    Skills
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#socials">
-                    Socials
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#contact">
-                    Kontakt
-                  </a>
-                </li>
-              </ul>
-            </div>
+      <nav id="_navbar" className="NavBar">
+        <div>
+          <button>
+            <span></span>
+          </button>
+          <div>
+            <ul>
+              <a href="#">Maksim Momcilovic</a>
+              <li>
+                <a href="#ueberMichSection">Über Mich</a>
+              </li>
+              <li>
+                <a href="#projekt-section">Projekte</a>
+              </li>
+              <li>
+                <a href="#skills-section">Skills</a>
+              </li>
+              <li>
+                <a href="#socials">Socials</a>
+              </li>
+              <li>
+                <a href="#contact">Kontakt</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     );
   }
 }
