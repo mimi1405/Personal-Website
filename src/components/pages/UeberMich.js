@@ -21,7 +21,7 @@ export class UeberMich extends Component {
                             </p>
                         </div>
                         <div className='column'>
-                            <a className='text-decoration-none' target="_blank" href='https://maksim-momcilovic.netlify.app/CV.pdf'><button data-bs-toggle="tooltip" data-bs-placement="top" title="Lebenslauf herunterladen" className='btn CV-button' type='button'>CV<FontAwesomeIcon className='downIcon' icon={faDownload}></FontAwesomeIcon></button></a>
+                            <a className='text-decoration-none' href='https://maksim-momcilovic.netlify.app/CV.pdf'><button data-bs-toggle="tooltip" data-bs-placement="top" title="Lebenslauf herunterladen" className='btn CV-button' type='button'>CV<FontAwesomeIcon className='downIcon' icon={faDownload}></FontAwesomeIcon></button></a>
                         </div>
                     </div>
                 </section>
