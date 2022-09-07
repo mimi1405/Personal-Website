@@ -1,28 +1,22 @@
 import React, { Component } from "react";
 import "./Navigation.css";
 
-        
 export default class NavLinks extends Component {
-
-  componentDidMount(){
+  componentDidMount() {
     const el = document.getElementById("_navbar").offsetTop;
 
-          window.addEventListener("scroll", function () {
-            if (window.scrollY > el) {
-              document.getElementById("_navbar").classList.add("fixed-top");
-              // add padding top to show content behind navbar
-              const navbar_height =
-                document.querySelector(".navbar").offsetHeight;
-              document.body.style.paddingTop = navbar_height + "px";
-            } else {
-              document
-                .getElementById("navbar_top")
-                .classList.remove("fixed-top");
-              // remove padding top from body
-              document.body.style.paddingTop = "0";
-            }// DOMContentLoaded end
-            //test
-          })}
+    window.addEventListener("scroll", function () {
+      if (window.scrollY > el) {
+        document.getElementById("_navbar").classList.add("fixed-top");
+        // add padding top to show content behind navbar
+        const navbar_height = document.querySelector(".navbar").offsetHeight;
+        document.body.style.paddingTop = navbar_height + "px";
+      } else {
+        document.getElementById("navbar_top").classList.remove("fixed-top");
+        document.body.style.paddingTop = "0";
+      }
+    });
+  }
 
   render() {
     return (
