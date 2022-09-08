@@ -28,7 +28,7 @@ export class UeberMich extends Component {
               </p>
             </div>
             <div className="column">
-                <a href="https://maksim-momcilovic.netlify.app/CV.pdf" download="CV.pdf">
+                <a href="build\files\CV.pdf" download="CV.pdf">
                   <button
                     data-bs-toggle="tooltip"
                     data-bs-placement="top"
