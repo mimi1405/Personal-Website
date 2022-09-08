@@ -10,11 +10,10 @@ import Projekte from "./components/pages/Projekte";
 import Footer from "./components/inc/Footer";
 import Spinner from "./components/inc/Spinner";
 import { useEffect, useState } from "react";
-import Navbar from "./components/inc/Navigation/NavLinks";
+import Navbar from "./components/inc/Navigation/NavBar";
 import TimeLine from "./components/pages/TimeLine/TimeLine";
 
 function App() {
-
 
   const [loading, setLoading] = useState(false);
 
@@ -22,7 +21,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 2500);
   }, []);
 
   return (

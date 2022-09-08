@@ -11,6 +11,9 @@
     font-family: 'Cascadia Code', sans-serif;
 }
 
+body{
+  background: black;
+}
 
 .entrance-block{
     text-align: center;
