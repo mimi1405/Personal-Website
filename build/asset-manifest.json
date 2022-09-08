@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.3b4b3f1c.css",
-    "main.js": "/static/js/main.51311af4.js",
+    "main.js": "/static/js/main.ede68f20.js",
     "static/js/787.ec704a7a.chunk.js": "/static/js/787.ec704a7a.chunk.js",
     "static/media/mariadbLogowhite.svg": "/static/media/mariadbLogowhite.7d194bc11aac8d9a38419b6c5519f9a7.svg",
     "static/media/banana.svg": "/static/media/banana.ca646753a5b22a7be12c87e2d8d39831.svg",
     "static/media/abacus.svg": "/static/media/abacus.ce9337f495709b14c6ba987cbc04fc9e.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/email-icon.svg": "/static/media/email-icon.a109cb4ed7150ba8683ee83097138c95.svg",
-    "static/media/downloadIcon.svg": "/static/media/downloadIcon.454abf69459e522eb342feca70bf8a08.svg",
     "index.html": "/index.html",
     "static/media/insta-icon.svg": "/static/media/insta-icon.72dd0f998274ea964ba3319c053eaa6e.svg",
     "static/media/github-icon.svg": "/static/media/github-icon.04be58c17b3d5e9744424d414240dd85.svg",
@@ -18,11 +17,11 @@
     "static/media/webflow-icon.svg": "/static/media/webflow-icon.6180beebaf2661ef6b8014009dd33bcb.svg",
     "static/media/stripe.svg": "/static/media/stripe.68875bbf1c5015faffecd110c68c28da.svg",
     "main.3b4b3f1c.css.map": "/static/css/main.3b4b3f1c.css.map",
-    "main.51311af4.js.map": "/static/js/main.51311af4.js.map",
+    "main.ede68f20.js.map": "/static/js/main.ede68f20.js.map",
     "787.ec704a7a.chunk.js.map": "/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b4b3f1c.css",
-    "static/js/main.51311af4.js"
+    "static/js/main.ede68f20.js"
   ]
 }
