@@ -14,11 +14,11 @@ export class contact extends Component {
                         </div>
                         <div className='row justify-content-center'>
                             <div className='col-lg-6'>
-                                <form name='contact' method='post' data-netlify="true" onSubmit="submit" netlify>
-
+                                <form name='contact' method='post' data-netlify="true" onSubmit="submit">
+                                    <input type="hidden" name='contact' value="contact v1"></input>
                                     <div class="mb-3">
-                                        <label style={{ color: "#af6dda"}} for="exampleInputEmail1" class="form-label">Email-Adresse</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                                        <label htmlFor='email' style={{ color: "#af6dda"}} for="email" class="form-label">Email-Adresse</label>
+                                        <input name='email' type="email" class="form-control" id="email" aria-describedby="emailHelp"></input>
                                     </div>
 
                                     <div class="mb-4">

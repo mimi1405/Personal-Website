@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-import axios from "axios";
-import fileDownload from "js-file-download";
 
 
 export class UeberMich extends Component {
@@ -28,14 +26,13 @@ export class UeberMich extends Component {
               </p>
             </div>
             <div className="column">
-                <a href="../../build\files\CV.pdf" download="CV.pdf">
+                <a href="/CV.pdf" download="CV.pdf">
                   <button
                     data-bs-toggle="tooltip"
                     data-bs-placement="top"
                     title="Lebenslauf herunterladen"
                     className="btn CV-button"
                     type="button"
-                    onClick={() => {this.handleDownload('localhost:3000/CV.pdf', 'CV.pdf')}}
                 > 
                     CV
                     <FontAwesomeIcon
