@@ -23,7 +23,7 @@ export class contact extends Component {
 
                                     <div class="mb-4">
                                         <label style={{ color: "#af6dda"}} for="exampleFormControlTextarea1" class="form-label">Nachricht</label>
-                                        <textarea id='exampleFormControlTextarea1' class="form-control" rows="3"></textarea>
+                                        <textarea name='message' id='exampleFormControlTextarea1' class="form-control" rows="3"></textarea>
                                     </div>
 
                                     <button type="submit" className="btn CV-button mb-5">Senden</button>
