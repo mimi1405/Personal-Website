@@ -44,7 +44,7 @@ export class socials extends Component {
               </div>
               <div className="col-xs-12 col-lg-auto">
                 <div className="social">
-                  <a href="" className="text-decoration-none">
+                  <a href="https://www.linkedin.com/in/maksim-momcilovic-1b3a4624b" className="text-decoration-none">
                     <div>
                       <svg
                         fill="currentColor"
@@ -67,7 +67,7 @@ export class socials extends Component {
               </div>
               <div className="col-xs-12 col-lg-auto">
                 <div className="social">
-                  <a href="" className="text-decoration-none">
+                  <a href="https://github.com/mimi1405" className="text-decoration-none">
                     <svg
                       className="soc-img"
                       fill="currentColor"
