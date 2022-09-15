@@ -90,6 +90,15 @@ export class projekte extends Component {
                 </div>
               </div>
             </div>
+            <div className="row justify-content-center align-items-center text-center">
+            <h1 className="project-title display-6 pt-4">Mehr Projekte folgen...</h1>
+            <ul className="list-unstyled pt-5">
+              <li>Portfolio über diese Website</li>
+              <li>C# WPF Memorygame</li>
+              <li>JQuery Media</li>
+              <li>Handyapplikation</li>
+            </ul>
+            </div>
           </div>
         </section>
       </div>

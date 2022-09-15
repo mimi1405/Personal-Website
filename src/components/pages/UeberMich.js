@@ -21,26 +21,8 @@ export class UeberMich extends Component {
                 In meiner Freizeit besuche ich gerne das Fitnessstudio, lese
                 gerne Bücher und fahre gerne Autos. Auf dieser Seite möchte ich
                 mich Ihnen gerne näher vorstellen, meine Skills und Projekte
-                präsentieren und Sie hoffentlich überzeugen. Laden Sie meinen CV
-                hier direkt unten herunter!
+                präsentieren und Sie hoffentlich überzeugen.
               </p>
-            </div>
-            <div className="column">
-                <a href="/CV.pdf" download="CV.pdf">
-                  <button
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    title="Lebenslauf herunterladen"
-                    className="btn CV-button"
-                    type="button"
-                > 
-                    CV
-                    <FontAwesomeIcon
-                      className="downIcon"
-                      icon={faDownload}
-                    ></FontAwesomeIcon>
-                  </button>
-                  </a>
             </div>
           </div>
         </section>
