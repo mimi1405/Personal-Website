@@ -19,7 +19,7 @@ export class UeberMich extends Component {
                 Maksim Momcilovic. Ich bin 18 Jahre alt und besuche derzeit die
                 Informatikmittelschule.<br></br>
                 In meiner Freizeit besuche ich gerne das Fitnessstudio, lese
-                gerne Bücher und fahre gerne Autos. Auf dieser Seite möchte ich
+                 Bücher, fahre Autos und noch einige andere Dinge. Auf dieser Seite möchte ich
                 mich Ihnen gerne näher vorstellen, meine Skills und Projekte
                 präsentieren und Sie hoffentlich überzeugen.
               </p>

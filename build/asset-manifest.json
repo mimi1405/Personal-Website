@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b4b3f1c.css",
-    "main.js": "/static/js/main.54a22739.js",
+    "main.js": "/static/js/main.fe1c4b88.js",
     "static/js/787.ec704a7a.chunk.js": "/static/js/787.ec704a7a.chunk.js",
     "static/media/mariadbLogowhite.svg": "/static/media/mariadbLogowhite.7d194bc11aac8d9a38419b6c5519f9a7.svg",
     "static/media/banana.svg": "/static/media/banana.ca646753a5b22a7be12c87e2d8d39831.svg",
@@ -17,11 +17,11 @@
     "static/media/webflow-icon.svg": "/static/media/webflow-icon.6180beebaf2661ef6b8014009dd33bcb.svg",
     "static/media/stripe.svg": "/static/media/stripe.68875bbf1c5015faffecd110c68c28da.svg",
     "main.3b4b3f1c.css.map": "/static/css/main.3b4b3f1c.css.map",
-    "main.54a22739.js.map": "/static/js/main.54a22739.js.map",
+    "main.fe1c4b88.js.map": "/static/js/main.fe1c4b88.js.map",
     "787.ec704a7a.chunk.js.map": "/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b4b3f1c.css",
-    "static/js/main.54a22739.js"
+    "static/js/main.fe1c4b88.js"
   ]
 }
