@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ .xy {
+        fill: #fff;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
