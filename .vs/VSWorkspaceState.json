@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\inc",
+    "\\src\\components\\inc\\Navigation",
+    "\\src\\components\\pages"
+  ],
+  "SelectedNode": "\\src\\components\\pages\\Greeting.js",
+  "PreviewInSolutionExplorer": false
+}
